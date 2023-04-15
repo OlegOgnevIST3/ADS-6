@@ -25,7 +25,7 @@ class TPQueue {
             throw std::string("full");
         } else {
             k++;
-            int id = l;
+            int id = y;
             for (int i = x; i < y; i++) {
                 if (arr[i].prior < val.prior) {
                     id = i;
